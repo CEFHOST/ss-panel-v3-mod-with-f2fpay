@@ -221,7 +221,7 @@
 				url: "code/f2fpay",
 				dataType: "json",
 				data: {
-						amount: $("#type").find("option:selected").val()
+						amount: $("#type").val()
 					},
 				success: function (data) {
 					$("#readytopay").modal('hide');
